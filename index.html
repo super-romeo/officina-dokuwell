@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Per autofficine: accettazione per targa, schede lavoro, preventivi, fatture elettroniche via SdI e promemoria ai clienti, in cloud.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">OfficinaFacile</a></div>
-  <nav class="top"><a href="#cosa" data-ev="click_nav_cosa">Cosa ottieni</a><a href="price.html" data-ev="click_nav_prezzo">Prezzo</a><a href="#esempio" data-ev="click_nav_esempio">Esempio</a><a href="#start" data-ev="click_nav_start">Inizia</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">OfficinaFacile</a>
+  <nav><a href="#cosa" data-ev="click_nav_cosa">Cosa ottieni</a><a href="price.html" data-ev="click_nav_prezzo">Prezzo</a><a href="#esempio" data-ev="click_nav_esempio">Esempio</a><a href="#start" data-ev="click_nav_start">Inizia</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Il gestionale in cloud per la piccola officina — schede lavoro, fatture SdI e promemoria</h1>
-    <p class="sub">Per officine meccaniche con il titolare e pochi collaboratori: accettazione del veicolo per targa, scheda lavoro sul telefono, preventivo da approvare, fattura elettronica tramite SdI e promemoria al cliente per il tagliando successivo.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Mi serve</a>
-    <p class="cta-note">Accesso anticipato · Su questa pagina non si accettano ancora pagamenti</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Per officine meccaniche con il titolare</p>
+      <h1 class="rise" style="--i:1" data-len="long">Il gestionale in cloud per la piccola officina&nbsp;<span class="soft">— schede lavoro, fatture SdI e promemoria</span></h1>
+      <p class="rise" style="--i:2">Per officine meccaniche con il titolare e pochi collaboratori: accettazione del veicolo per targa, scheda lavoro sul telefono, preventivo da approvare, fattura elettronica tramite SdI e promemoria al cliente per il tagliando successivo.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Mi serve</a>
+      <p class="meta rise" style="--i:4">Accesso anticipato · Su questa pagina non si accettano ancora pagamenti</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="160" font-size="40" font-weight="600" fill="#0a1524">OfficinaFacile</text><line x1="130" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="292" font-size="32" font-weight="600" fill="#0a1524">targa</text><rect x="130" y="370" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="402" font-size="32" font-weight="600" fill="#0a1524">scheda</text><rect x="130" y="480" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="512" font-size="32" font-weight="600" fill="#0a1524">fattura</text><rect x="200" y="580" width="340" height="24" rx="12" fill="#dde2ea" /><rect x="680" y="250" width="390" height="420" rx="20" fill="#dfe8f7" /><text x="710" y="320" font-size="34" font-weight="600" fill="#0a1524">Promemoria</text><rect x="720" y="390" width="300" height="48" rx="24" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="720" y="470" width="240" height="48" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="720" y="550" width="270" height="48" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Per</dt><dd>Officine meccaniche</dd></div>
+      <div><dt>Scheda</dt><dd>Scheda lavoro sul telefono</dd></div>
+      <div><dt>Fattura</dt><dd>Tramite il Sistema di Interscambio</dd></div>
+      <div><dt>Servizio</dt><dd>È in preparazione</dd></div>
+    </dl>
+  </section>
 
   <section id="cosa" data-view="features_view">
-    <h2>Cosa ottieni</h2>
-    <div class="grid">
-      <div class="card"><b>Accettazione per targa</b><span>Storico del veicolo e dati del cliente dalla targa.</span><br><a class="btn" href="price.html" data-ev="feature_accettazione">Mi serve</a></div>
-      <div class="card"><b>Scheda lavoro</b><span>Lavori, ricambi e manodopera in un'unica scheda.</span><br><a class="btn" href="price.html" data-ev="feature_scheda">Mi serve</a></div>
-      <div class="card"><b>Fattura elettronica</b><span>Fattura dalla scheda, inviata tramite SdI.</span><br><a class="btn" href="price.html" data-ev="feature_fattura">Mi serve</a></div>
-      <div class="card"><b>Promemoria</b><span>Avviso al cliente per tagliando e revisione.</span><br><a class="btn" href="price.html" data-ev="feature_promemoria">Mi serve</a></div>
+    <div class="stack"><h2>Cosa ottieni</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="30" font-weight="600" fill="#0a1524">Accettazione per targa</text><rect x="270" y="180" width="260" height="320" rx="32" fill="#ffffff" stroke="#12397a" stroke-width="4" /><rect x="294" y="214" width="212" height="200" rx="12" fill="#dfe8f7" /><rect x="294" y="430" width="212" height="36" rx="18" fill="#12397a" /><circle cx="400" cy="470" r="10" fill="#ffffff" /></svg></div>
+        <h3>Accettazione per targa</h3><p>Storico del veicolo e dati del cliente dalla targa.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_accettazione">Mi serve</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="32" font-weight="600" fill="#0a1524">Scheda lavoro</text><rect x="120" y="210" width="44" height="44" rx="8" fill="#12397a" /><polyline points="130,232 140,244 156,222" fill="none" stroke="#ffffff" stroke-width="4" /><rect x="184" y="220" width="420" height="24" rx="12" fill="#dde2ea" /><rect x="120" y="310" width="44" height="44" rx="8" fill="#12397a" /><polyline points="130,332 140,344 156,322" fill="none" stroke="#ffffff" stroke-width="4" /><rect x="184" y="320" width="300" height="24" rx="12" fill="#b9c3d2" /><rect x="120" y="410" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="184" y="420" width="360" height="24" rx="12" fill="#dde2ea" /></svg></div>
+        <h3>Scheda lavoro</h3><p>Lavori, ricambi e manodopera in un'unica scheda.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_scheda">Mi serve</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="110" width="250" height="380" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="84" y="170" font-size="30" font-weight="600" fill="#0a1524">Fattura</text><rect x="84" y="210" width="180" height="22" rx="8" fill="#dde2ea" /><rect x="84" y="252" width="140" height="22" rx="8" fill="#b9c3d2" /><rect x="84" y="294" width="160" height="22" rx="8" fill="#dde2ea" /><polygon points="330,300 410,300 410,322 460,286 410,250 410,272 330,272" fill="#12397a" /><rect x="490" y="110" width="250" height="380" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="514" y="170" font-size="30" font-weight="600" fill="#0a1524">SdI</text><rect x="514" y="210" width="170" height="22" rx="8" fill="#dfe8f7" /><rect x="514" y="252" width="120" height="22" rx="8" fill="#dde2ea" /><circle cx="560" cy="360" r="28" fill="#dfe8f7" /><text x="80" y="80" font-size="30" font-weight="600" fill="#566174">Fattura elettronica</text></svg></div>
+        <h3>Fattura elettronica</h3><p>Fattura dalla scheda, inviata tramite SdI.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_fattura">Mi serve</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="34" font-weight="600" fill="#0a1524">Promemoria</text><rect x="130" y="210" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="210" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="390" y="210" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="520" y="210" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="300" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="300" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="390" y="300" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="520" y="300" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="390" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="390" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="390" y="390" width="100" height="64" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="520" y="390" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Promemoria</h3><p>Avviso al cliente per tagliando e revisione.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_promemoria">Mi serve</a>
+      </article>
     </div>
   </section>
 
-  <section id="esempio" data-view="example_view">
-    <h2>Esempio (dati di fantasia)</h2>
-    <p class="fine">Officina con due ponti a Verona. Un cliente porta l'auto per un rumore ai freni: accettazione per targa, foto, scheda lavoro. Il preventivo per dischi e pastiglie parte via SMS e il cliente approva. A lavoro finito la fattura elettronica viene inviata tramite SdI e tra un anno partirà il promemoria del tagliando.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Scegli il piano</a>
+  <section id="esempio" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Esempio</h2>
+      <p>Officina con due ponti a Verona. Un cliente porta l'auto per un rumore ai freni: accettazione per targa, foto, scheda lavoro. Il preventivo per dischi e pastiglie parte via SMS e il cliente approva. A lavoro finito la fattura elettronica viene inviata tramite SdI e tra un anno partirà il promemoria del tagliando.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Scegli il piano</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">Verona</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">freni</text><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="960" y="230" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">tagliando</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" font-weight="600" fill="#0a1524">tramite SdI</text><rect x="170" y="440" width="58" height="58" rx="8" fill="#12397a" /><rect x="248" y="440" width="58" height="58" rx="8" fill="#12397a" /><rect x="326" y="440" width="58" height="58" rx="8" fill="#dfe8f7" /><rect x="404" y="440" width="58" height="58" rx="8" fill="#dfe8f7" /><rect x="482" y="440" width="58" height="58" rx="8" fill="#dfe8f7" /><text x="170" y="620" font-size="32" fill="#566174">preventivo</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Come funziona</h2>
-    <p>In una piccola officina le schede lavoro spesso sono di carta, i preventivi si fanno a voce e le fatture elettroniche si emettono la sera con un altro programma. Il servizio dell'Agenzia delle Entrate serve per la fattura, ma non tiene schede lavoro, storico dei veicoli e promemoria. OfficinaFacile mette tutto questo in un unico gestionale in cloud.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Come funziona</h2></div>
+    <div class="stack">
+      <p>In una piccola officina le schede lavoro spesso sono di carta, i preventivi si fanno a voce e le fatture elettroniche si emettono la sera con un altro programma. Il servizio dell'Agenzia delle Entrate serve per la fattura, ma non tiene schede lavoro, storico dei veicoli e promemoria. OfficinaFacile mette tutto questo in un unico gestionale in cloud.</p>
     <p>L'accettazione parte dalla targa. Se il veicolo è già passato in officina, compaiono il suo storico e i dati del cliente. Per un veicolo nuovo si inseriscono marca, modello e chilometraggio, con le foto dello stato all'ingresso.</p>
     <p>La scheda lavoro raccoglie lavori, ricambi e manodopera. I meccanici vedono le proprie schede sul telefono e segnano i lavori fatti, mentre il titolare vede a che punto è ogni veicolo.</p>
     <p>Quando emerge un lavoro in più, il preventivo arriva al cliente via SMS o e-mail e viene approvato con un clic. L'approvazione resta nella scheda, così alla riconsegna non ci sono discussioni.</p>
@@ -116,31 +150,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Le foto dell'accettazione e dei ricambi sostituiti restano nella scheda. Quando un cliente chiede perché un pezzo è stato cambiato, gli mostri la foto del ricambio usurato, e puoi inviare le foto insieme alla fattura. Questo rafforza la fiducia e riduce le discussioni sul lavoro svolto.</p>
     <p>Il calendario dei ponti mostra quale auto è su quale ponte e quando si libera un posto. Il cliente che telefona per un appuntamento ha subito una risposta, e l'officina non accetta più auto di quante possa lavorare nella giornata. Gli appuntamenti presi al telefono finiscono nello stesso calendario.</p>
     <p>OfficinaFacile non è l'Agenzia delle Entrate né un commercialista. L'officina resta responsabile delle proprie fatture e dichiarazioni.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Domande frequenti</h2>
-    <h3>A chi si rivolge OfficinaFacile?</h3>
-    <p>A officine meccaniche, gommisti e piccoli centri di assistenza.</p>
-    <h3>Emette fatture elettroniche?</h3>
-    <p>Sì, dalla scheda lavoro, tramite il Sistema di Interscambio.</p>
-    <h3>Il cliente può approvare il preventivo a distanza?</h3>
-    <p>Sì, via SMS o e-mail con un clic.</p>
-    <h3>Manda promemoria ai clienti?</h3>
-    <p>Sì, per tagliando e revisione, nei tempi che stabilisci.</p>
-    <h3>Posso già usarlo?</h3>
-    <p>Non ancora. Il servizio è in preparazione e stiamo verificando se serve alle officine.</p>
+    <div class="stack"><h2>Domande frequenti</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>A chi si rivolge OfficinaFacile?</h3><p>A officine meccaniche, gommisti e piccoli centri di assistenza.</p></div>
+      <div class="split flip"><h3>Emette fatture elettroniche?</h3><p>Sì, dalla scheda lavoro, tramite il Sistema di Interscambio.</p></div>
+      <div class="split flip"><h3>Il cliente può approvare il preventivo a distanza?</h3><p>Sì, via SMS o e-mail con un clic.</p></div>
+      <div class="split flip"><h3>Manda promemoria ai clienti?</h3><p>Sì, per tagliando e revisione, nei tempi che stabilisci.</p></div>
+      <div class="split flip"><h3>Posso già usarlo?</h3><p>Non ancora. Il servizio è in preparazione e stiamo verificando se serve alle officine.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Aggiungi la tua officina</h2>
-    <p><label>Ponti in officina<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— scegli —</option><option>1</option><option>2–3</option><option>4–6</option><option>Più di 6</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Aggiungi officina</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Aggiungi la tua officina</h2>
+    </div>
+    <div class="tile stack">
+      <label>Ponti in officina<select data-ev-focus="form_start"><option value="">— scegli —</option><option>1</option><option>2–3</option><option>4–6</option><option>Più di 6</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Aggiungi officina</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>OfficinaFacile</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Non è l'Agenzia delle Entrate né un commercialista. L'officina resta responsabile delle proprie fatture e dichiarazioni.</p>
+  <p>Non è l'Agenzia delle Entrate né un commercialista. L'officina resta responsabile delle proprie fatture e dichiarazioni.</p>
 </div></footer>
 
 </body>
